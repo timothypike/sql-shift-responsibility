@@ -1,0 +1,17 @@
+{
+  "name": "sql-shift-responsibility",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SQL work sample: overnight shift responsibility vs observation with snapshot data, verified with PGlite",
+  "type": "module",
+  "scripts": {
+    "test": "node test/verify.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
